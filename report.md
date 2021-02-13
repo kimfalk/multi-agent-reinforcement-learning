@@ -1,6 +1,5 @@
 [//]: # (Image References)
 
-
 # Udacity DRL project 3: Multi agent reinforcement learning
 
 In the following, the learning algorithm is described, along with the chosen hyperparameters. It also describes the 
@@ -8,7 +7,7 @@ model architectures for the neural networks used.
 
 Environment solved in 863 episodes. Average Score: 0.50
 
-[image1]: https://https://github.com/kimfalk/multi-agent-reinforcement-learning/images/reward_chart.png "Trained Agent"
+[image1]: https://github.com/kimfalk/multi-agent-reinforcement-learning/images/reward_chart.png "Trained Agent"
 
 ## Simulation Environment
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, 
