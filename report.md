@@ -72,11 +72,13 @@ WEIGHT_DECAY = 0        # L2 weight decay
 
 There are many ways you could improve on this. I believe that the solution that I have is pretty good. But I would 
 have liked to test out other algorithms and see if I could have done it even better. Staying with the DDPG, I would 
-start out focusing on how the noise is applied to the actions. It could be interesting to see if it would be worth 
-adding decay to the noise, or something like momentum which could be tied to the reward. I would also like to try
+start out focusing on how the noise is applied to the actions, sampling from the replay buffer could also be optimized, 
+for example by using Hindsight Experience Replay[5].
+It could be interesting to see if it would be worth adding decay to the noise, or something like momentum which could be tied to the reward. I would also like to try
 the MADDPG[4], to verify if that would improve the solution. 
 
-[1 - Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
-[2 - Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf)
-[3 - Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
-[4 - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275)
+- [1 - Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+- [2 - Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf)
+- [3 - Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
+- [4 - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275)
+- [5 - Hindsight Experience Replay](https://arxiv.org/abs/1707.01495)
